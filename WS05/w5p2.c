@@ -1,9 +1,9 @@
 /*/////////////////////////////////////////////////////////////////////////
 						  Workshop - #5 (P2)
-Full Name  : Meet Hitesh Sonagara
-Student ID#: 122208226
-Email      : msonagara@myseneca.ca
-Section    : ZBB
+Full Name  : 
+Student ID#: 
+Email      : 
+Section    : 
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been

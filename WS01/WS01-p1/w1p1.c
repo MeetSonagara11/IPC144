@@ -12,9 +12,7 @@ piece of work is entirely of my own creation.
 ******************************************************************************
 */
 
-//For More Contact me on instagram or mail
-//Instagram: @meetsonagara1101
-//Mail : connect.meetsonagara1101@gmail.com
+
 #include <stdio.h>
 int main() {
 	
