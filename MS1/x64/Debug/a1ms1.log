@@ -1,0 +1,12 @@
+﻿  a1ms1.c
+  core.c
+  Generating Code...
+core.obj : error LNK2005: clearInputBuffer already defined in a1ms1.obj
+core.obj : error LNK2005: displayFormattedPhone already defined in a1ms1.obj
+core.obj : error LNK2005: inputCString already defined in a1ms1.obj
+core.obj : error LNK2005: inputCharOption already defined in a1ms1.obj
+core.obj : error LNK2005: inputInt already defined in a1ms1.obj
+core.obj : error LNK2005: inputIntPositive already defined in a1ms1.obj
+core.obj : error LNK2005: inputIntRange already defined in a1ms1.obj
+core.obj : error LNK2005: suspend already defined in a1ms1.obj
+E:\My Seneca\Semester - 01\IPC 144\Milestones\MS1\x64\Debug\a1ms1.exe : fatal error LNK1169: one or more multiply defined symbols found
