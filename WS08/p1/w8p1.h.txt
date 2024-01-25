@@ -1,0 +1,19 @@
+
+#define maxProduct 3
+#define GRAMS_NUMBER 64
+
+struct CatFoodInfo {
+    int skuNumber;
+    double price;
+    int calories;
+    double weight;
+};
+
+int getIntPositive(int*);
+double getDoublePositive(double*);
+
+void openingMessage(int);
+struct CatFoodInfo getCatFoodInfo(int);
+void displayCatFoodHeader(void);
+void displayCatFoodData(int, double*, int, double*);
+void start(void);

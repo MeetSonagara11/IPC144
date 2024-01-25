@@ -1,0 +1,16 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : 
+Student ID#: 
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1). Their are three types of iteration constucts by with we can do same things, but each have the different stucture and ability to perform a particular task. Whenever I use arrays in my code I normally use for loop which is the most easiest thing I can deal with arrays and I feels like its very efficient.
+
+2). To check if my program was working correctly, I tested it with different inputs and checked if it gave the right answers. If there were mistakes in how I wrote the code, the compiler or interpreter would show error messages, and I used those messages to fix the problems. For errors in how the program worked, I added print messages to see what was happening and compared the results to what I expected. I kept doing these steps until the program worked correctly and didn't have any errors.
+
+3).

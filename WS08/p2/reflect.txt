@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : 
+Student ID#: 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1).Functions that can return values through return statements and arguments offer flexibility and usability. It gives programmer the chance to access the result by a returned value or the result argument, depending on which you like best. This allows to use different coding words and increases the program's flexibility. To avoid repetition and maintain consistency, it's very important to take care of the coupling among both methods. If not managed properly. this could result in misunderstandings as well as code repetition, causing the source code more difficult to read and maintain.
+
+2). 'calculateReportData()' is a function that lacks perfect cohesion. It performs a number of unrelated calculations. We break it up into distinct functions, 
+    each in charge of a particular calculation, to increase cohesion.
+
+'displayFinalAnalysis()' has a coupling issue that could be fixed.
+The 'foodInfo' array and the function 'displayFinalAnalysis()' are inseparably linked. 
+We should change the function to accept the necessary data as arguments rather than relying on the particular data structure directly to increase coupling.
+This adjustment improves adaptability and reusability.
+
+3).Structures are advantageous because they provide better convenience, and data integrity protection. Structures can be passed by reference using pointers to increase efficiency. Performance is enhanced and data duplication is prevented. By accepting a pointer to a structure as a parameter, the 'displayCatFoodData()' function can be made faster and with fewer parameters.

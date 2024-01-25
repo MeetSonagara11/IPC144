@@ -1,0 +1,40 @@
+
+
+#define maxProduct 3
+#define GRAMS_NUMBER 64
+#define lbsKg 2.20462
+
+struct CatFoodInfo 
+{
+    int skuNumber, calories;
+    double price, weight;
+};
+
+struct ReportData
+{
+    int skuNumber, calories, gram;
+    double price,lbs, kg;
+    double servings, servingPrice, calorieCost;
+};
+
+int getIntPositive(int*);
+double getDoublePositive(double*);
+void openingMessage(int);
+
+struct CatFoodInfo getCatFoodInfo(int);
+void displayCatFoodHeader(void);
+void displayCatFoodData(int, double*, int, double*);
+void start(void);
+
+double convertLbsKg(const double* pounds, double* poundToKg);
+int convertLbsG(const double* pounds, int* poundToGram);
+void convertLbs(const double* pounds, double* poundToKg, int* poundToGram);
+double calculateServings(const int servingSizeGrams, const int ttlGrams, double* numServings);
+double calculateCostPerServing(const double* price, const double* numServings, double* result);
+double calculateCostPerCal(const double* price, const double* calories, double* result);
+
+struct ReportData calculateReportData(struct CatFoodInfo foodInfo);
+void displayReportHeader(void);
+void displayReportData(const struct ReportData data, const int cheapProduct);
+void displayFinalAnalysis(const struct CatFoodInfo foodInfo); 
+void start(void);

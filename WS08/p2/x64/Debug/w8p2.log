@@ -1,0 +1,6 @@
+﻿  main2.c
+  w8p2.c
+E:\My Seneca\Semester - 01\IPC 144\Week-08\WS08\p2\w8p2.c(192,38): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+E:\My Seneca\Semester - 01\IPC 144\Week-08\WS08\p2\w8p2.c(205,38): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+  Generating Code...
+  w8p2.vcxproj -> E:\My Seneca\Semester - 01\IPC 144\Week-08\WS08\p2\x64\Debug\w8p2.exe

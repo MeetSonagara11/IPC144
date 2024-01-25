@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : 
+Student ID#: 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1). Yes, the code attempt to to handle repetitive sections of logic in the game play portion by using loops and arrays. It dynamically updates and displays the game board, player positions, and other relevant information. However, without detailed information about the specific workshop and its objectives, it is difficult to determine whether the code fully meets the requirements for non-repetitive logic. I have face lots and lots of error while dealing with arrays in loops.
+
+2). Using structures in the programme makes the process via organising related data together in a clean and organised way. This makes the code simpler to read and understand as all of the information for a player or the game is stored in the same place. Without structures, I have to keep in mind different variables for the every item of information, which makes the code more difficult to read. Structures also make the code easier to manage and maintainable as if it's necessary to modify a thing regarding the player or game, that we only need to update the structure definition rather than looking for variables all over the code. 
+
+3). In my code I have 3 layers of nestings which is the maximum
+	do
+	{
+        for (k = 0; k < game.pathLength; k++)
+        {
+            if (currentPosition[k] == 'V')
+            {
+                Count++;
+            }
+        }
