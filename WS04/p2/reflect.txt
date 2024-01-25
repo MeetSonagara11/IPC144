@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Meet Hiteh Sonagara
+Student ID#: 122208226
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1) There are many things that I use in my code to make it more readable :
+	a) I use comments, so by reading comments, you can easily know the particular block of code is for what.
+	b) I do proper variable naming which are very easy to read and understand for what purpose the variable is define.
+	c)The main i used to focus on is indentation, with the help on indentation my code look like it is written by a expert in a professional way.
+
+2)Nested logic is a really useful tool in programming that helps me in organizing my code and do many tricky things. It helps me to make decisions based on conditions, like if something is true or false. I can also use it to repeat tasks again and again. It helps to keep track of different blocks of information and deal with mistakes that come while debugging. By using nested logic, I can make my code neat and tidy, and it's very easy to use the same code in different parts of program.
+
+3) Instead of using the "if/else if" compared path logic that is currently in use, a series of "if" optional not necessary to path constructs which would be used and which resulting in unnecessary evaluations, reduced speed, decreased code readability, and more difficult maintaining the code For example managing various input value ranges, the "if/else if" method offers a more practical, readable, and maintainable solution.
