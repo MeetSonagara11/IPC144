@@ -1,0 +1,78 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Meet Hitesh Sonagara
+Student ID#: 122208226
+Email      : msonagara@myseneca.ca
+Section    : ZBB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1)
+
+//Prefrence Table 1
+printf("--------------------+-------------+-------+\n");
+printf("  |     Coffee      |  Packaged   | With  |\n");
+printf("ID|      Type       | Bag Weight  | Cream |\n");
+printf("--+-----------------+-------------+-------+\n");
+printf(" 1|       %d         |      %d      |   %d   |\n",
+    strength1 == 'l' || strength1 == 'L' && type1,
+    servings1 == 1 || servings1 <= 4,
+    cream4 == 'Y' || cream4 == 'y');
+
+printf(" 2|       %d         |      %d      |   %d   |\n",
+    strength1 == 'm' || strength1 == 'M' && type2,
+    servings1 >= 5 && servings1 <= 9,
+    cream4 == 'N' || cream4 == 'n');
+
+printf(" 3|       %d         |      %d      |   %d   |\n",
+    strength1 == 'R' || strength1 == 'R' && type3,
+    servings1 >= 10,
+    cream4 == 'N' || cream4 == 'n');
+
+
+A)strength1 == 'l' || strength1 == 'L' && type1
+servings1 == 1 || servings1 <= 4
+cream4 == 'Y' || cream4 == 'y'
+strength1 == 'm' || strength1 == 'M' && type2
+servings1 >= 5 && servings1 <= 9
+cream4 == 'N' || cream4 == 'n'
+strength1 == 'R' || strength1 == 'R' && type3
+servings1 >= 10
+cream4 == 'N' || cream4 == 'n'
+
+
+B) I have Used Total 7 Logical operators to get correct output.
+strength1 == 'l' || strength1 == 'L' && type1
+servings1 == 1 || servings1 <= 4
+cream4 == 'Y' || cream4 == 'y'
+strength1 == 'm' || strength1 == 'M' && type2
+servings1 >= 5 && servings1 <= 9
+cream4 == 'N' || cream4 == 'n'
+These expressions combine relational expressions using logical operators (||, &&) to evaluate the overall condition and return a Boolean value.
+
+
+
+2) From part 1 the code of output 9
+	
+	without using DeMorgan's Law,
+		printf("2. Are products 2 and 3 both NOT taxable (N)? -> %d\n\n", tax2 == 'N' && tax3 == 'N');
+
+	with using DeMorgan's Law,
+		printf("2. Are products 2 and 3 both NOT taxable (N)? -> %d\n\n", !(tax2 == 'Y' || tax3 == 'Y'));
+
+
+
+3)We can organize variables by the different categories for which they are used
+for example
+
+Variables which are used for coffee:
+
+		char cream1 = 'A', cream2 = 'B', cream3 = 'C', cream4 = 'D', cream5 = 'E';
+		char type1, type2, type3;
+		int bagweight1 = 0, bagweight2 = 0, bagweight3 = 0;
