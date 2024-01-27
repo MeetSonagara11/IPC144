@@ -22,7 +22,7 @@ int main() {
 	printf("  I promise I will work hard from this day onward.\n");
 	printf("  I acknowledge that practice is extremely important,\n");
 	printf("  so I will do all workshops, quizzes, and assignments.\n\n");
-	printf("Sincerely,\n\nMeet Sonagara\n");
-	printf("Student Id# 122208226");
+	printf("Sincerely,\n\n\n");
+	printf("Student Id# ");
 	return 0;
 }
